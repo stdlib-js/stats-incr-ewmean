@@ -30,10 +30,14 @@ An [exponentially weighted mean][moving-average] can be defined recursively as
 
 <!-- <equation class="equation" label="eq:exponentially_weighted_mean" align="center" raw="\mu_t = \begin{cases} x_0 & \textrm{if}\ t = 0 \\ \alpha x_t + (1-\alpha) \mu_{t-1} & \textrm{if}\ t > 0 \end{cases}" alt="Recursive definition for computing an exponentially weighted mean."> -->
 
-<div class="equation" align="center" data-raw-text="\mu_t = \begin{cases} x_0 &amp; \textrm{if}\ t = 0 \\ \alpha x_t + (1-\alpha) \mu_{t-1} &amp; \textrm{if}\ t &gt; 0 \end{cases}" data-equation="eq:exponentially_weighted_mean">
+```math
+\mu_t = \begin{cases} x_0 & \textrm{if}\ t = 0 \\ \alpha x_t + (1-\alpha) \mu_{t-1} & \textrm{if}\ t > 0 \end{cases}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\mu_t = \begin{cases} x_0 &amp; \textrm{if}\ t = 0 \\ \alpha x_t + (1-\alpha) \mu_{t-1} &amp; \textrm{if}\ t &gt; 0 \end{cases}" data-equation="eq:exponentially_weighted_mean">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@1445ad5c454bc3c1a86bde2be87d6cec87781174/lib/node_modules/@stdlib/stats/incr/ewmean/docs/img/equation_exponentially_weighted_mean.svg" alt="Recursive definition for computing an exponentially weighted mean.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -211,7 +215,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
