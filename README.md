@@ -63,7 +63,7 @@ An [exponentially weighted mean][moving-average] can be defined recursively as
 ## Usage
 
 ```javascript
-import increwmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-ewmean@deno/mod.js';
+import increwmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-ewmean@v0.1.0-deno/mod.js';
 ```
 
 #### increwmean( alpha )
@@ -119,7 +119,7 @@ v = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import increwmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-ewmean@deno/mod.js';
+import increwmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-ewmean@v0.1.0-deno/mod.js';
 
 var accumulator;
 var v;
